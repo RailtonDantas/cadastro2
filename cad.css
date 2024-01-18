@@ -1,0 +1,82 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "noodle";
+    src: url("fontes/big_noodle_titling.ttf") format("truetype");
+}
+@font-face {
+    font-family:"lemon" ;
+    src: url("fontes/LEMONMILK-Bold.otf") format("opentype");
+}
+*{
+    margin: 0px;
+    height: 100%;
+}
+body{
+    background-image: linear-gradient(to bottom, #0000FF,#3D3D66);
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+main{
+    width: 540px;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: white;
+    padding: 20px;
+}
+#requesitos{
+    width: 540px;
+    height: auto;
+    border: 2px solid rgba(0, 0, 0, 0.342);
+    background-color: white;
+
+}
+li{
+  height: auto;
+  margin-bottom: 10px;
+
+}
+h1{
+    font-family: "lemon";
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    height: auto;
+    margin-bottom: 20px;
+}
+input{
+    height: auto;
+    margin-left: 10px;
+    justify-self: flex-end;
+}
+fieldset{
+    background-color: lightgray;
+}
+label{
+    font-family: "lemon";
+    font-size: 0.8em;
+}
+legend{
+    font-family: "lemon";
+}
+.line{
+    margin-bottom: 20px;
+}
+#senha{
+    width: 180px;
+    height: auto;
+    background-color: #0000FF;
+    font-family: "lemon";
+    text-align: center;
+    padding: 2px;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+}
+
+

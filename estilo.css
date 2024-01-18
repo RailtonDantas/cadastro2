@@ -1,0 +1,74 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "noodle";
+    src: url("fontes/big_noodle_titling.ttf") format("truetype");
+}
+@font-face {
+    font-family:"lemon" ;
+    src: url("fontes/LEMONMILK-Bold.otf") format("opentype");
+}
+*{
+    margin: 0px;
+    height: 100%;
+}
+body{
+    background-image: linear-gradient(to bottom, #0000FF,#3D3D66);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.267);
+    width: 60%;
+    height: 400px;
+}
+h1{
+    font-family: "lemon";
+    text-align: center;
+    opacity: 90%;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.247);
+    padding-top: 30px;
+    color: #292933;
+    height: auto;
+}
+p{
+    font-family: "noodle";
+    height: auto;
+    width: 90%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 20px;
+}
+div{
+    width: 50%;
+    height: 200px;
+    background-color: #0000FF;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+div p{
+    font-size: 7em;
+    vertical-align: middle;
+    height: auto;
+}
+div:hover{
+    background-color: aqua;
+}
+div:active{
+    background-color: #3D3D66;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
